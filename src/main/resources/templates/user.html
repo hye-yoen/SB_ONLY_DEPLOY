@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>user PAGE..</h1>
+
+    auth_1 : <div th:text="${auth_1}"></div>
+    <hr/>
+    auth_1.getPrincipal : <div th:text="${auth_1.getPrincipal()}"></div>
+    <hr/>
+    auth_1.getDetails : <div th:text="${auth_1.getDetails()}"></div>
+    <hr/>
+    auth_1.getAuthorities : <div th:text="${auth_1.getAuthorities()}"></div>
+</body>
+</html>
