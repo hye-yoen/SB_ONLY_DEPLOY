@@ -14,7 +14,7 @@ public class DataSourceConfig {
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/testsdb");
         dataSource.setUsername("root");
-        dataSource.setPassword("1234");
+        dataSource.setPassword("Zhfldk11!");
         return dataSource;
     }
 
